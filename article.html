@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>RWD_Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>RWD_Blog</title>
 </head>
 <body>
-	<header>
-    <h1><a href="#">Nombre del blog</a></h1>
-    <nav>
+  <header>
+    <ul class="social">
+      <li class="twitter"></li>
+      <li class="facebook"></li>
+    </ul>
+    <h1 class="logo"><a href="#">Nombre del blog</a></h1>
+    <nav class="main-nav">
       <ul>
         <li><a href="#">Inicio</a></li>
         <li><a href="#">¿Quien soy?</a></li>
@@ -33,19 +39,40 @@
           <time class="updated-preview" datetime="2015-8-25" pubdate="">25 de agosto 2015</time>
         </li>
       </ul>
-      <a href="#" class="link see-more">Ver todos</a>
+      <a href="#" class="see-more">Ver todos</a>
     </div>
   </section>
   <section>
-    <h2>Un artículo muy interesante</h2>
-    <time class="updated-preview" datetime="2015-8-25" pubdate="">25 de agosto 2015</time>
-    <h4 class="author-name">Fulanito de Tal</h4>
-    <p class="author-email">fulanito"detal.com</p>
+    <div class="post-body">
+      <h2 class="article-name">Un artículo muy interesante</h2>
+      <time class="updated-preview" datetime="2015-8-25" pubdate="">25 de agosto 2015</time>
+      <h4 class="author-name">Fulanito de Tal</h4>
+      <a class="author-email">fulanito@detal.com</a>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur
+      ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
+      posuere velit aliquet.</p>
+      <p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper
+      nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis
+      in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed
+      posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor</p>
+      <img src="img/article.png">
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur
+      ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus
+      posuere velit aliquet.</p>
+      <p>Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper
+      nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis
+      in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed
+      posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor</p>
+    </div>
   </section>
   <footer>
-    <span>© 2015 Fulanito de Tal</span>
-    <button class="social facebook"></button>
-    <button class="social twitter"></button>
+    <p>© 2015 Fulanito de Tal</p>
+    <ul class="social">
+      <li class="twitter"></li>
+      <li class="facebook"></li>
+    </ul>
   </footer>
 </body>
 </html>

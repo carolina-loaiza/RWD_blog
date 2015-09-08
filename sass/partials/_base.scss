@@ -2,7 +2,93 @@
 // Estilos para los elementos base y footer
 //
 
-* {
+body {
   box-sizing: inherit;
+  font-family: $text-sans;
+  color: $text;
 }
 
+h2 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 5% 0 0 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 25px;
+}
+
+a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $text;
+  border-bottom: 2px solid #535257;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.see-more::after, .next-page::after {
+  content: ">";
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.last-page::after {
+  content: ">>";
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.facebook {
+  background-image: url(../img/facebook.png);
+  margin-right: 20px;
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+  margin-right: 30px;
+}
+
+.social li{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px; 
+}
+
+footer {
+  background: $background-color;
+  padding: 4% 0;
+}
+
+footer p {
+  font-weight: bold;
+  margin: 0 3%;
+}
+
+footer .social {
+  margin-top: -54px;
+}

@@ -2,23 +2,11 @@
 // Placeholders
 //
 
-%content {
-  margin: 0 auto;
-  max-width: $content-width;
-}
-
 // Button Blue shadow/border disable
 %blue-border {
   box-shadow: none;
   outline: 0;
   -webkit-box-shadow: none;
-}
-
-// List placeholder
-%list-style {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
 }
 
 // text-hidden placeholder

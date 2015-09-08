@@ -1,3 +1,24 @@
 //
 // Estilos de Recent Project
 //
+
+.post-recent {
+  margin-top: 2.3%;
+  float: right;
+  max-width: 20%;
+  background: $background-post-recent;
+  padding: 2% 2.5%;
+}
+
+.post-recent a{
+  font-size: 25px;
+}
+
+.updated-preview {
+  display: block;
+  margin: 3% 0 20% 0;
+}
+
+.see-more {
+  float: right;
+}

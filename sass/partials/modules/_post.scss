@@ -1,75 +1,29 @@
 //
 // Estilos de Preview Post
 
-.post-main {
-  max-width: 900px;
-}
-
-.post-preview img {
-  max-width: 100%;
+.post-preview {
+	background: $background-post;
 }
 
 .post-preview {
-  max-width: 26%;
-  margin: 3% 2% 0 0;
-  padding: 2% 2.4%;
-  background: #E8E7E6;
+	width: 80%;
+	text-aling: center;
+	padding: 2%;
+	margin: 10% auto;
+	color: $text-title;
 }
 
-.post-page {
-  margin: 5% 0 20% 0;
-  padding-left: 18%; 
+.post-preview h3 {
+	font-weight: bold;
+	margin: 2% 0;
 }
 
-.post-page li{
-  padding: 0 2%;
-  font-size: 30px;
+.post-preview img {
+  width: 100%;
 }
 
-.read-more {
-  background: #fff;
-  border: 1px solid #535257;
-  padding: 1% 10%;
-  font-size: 20px;
-}
 
-.updated {
-  font-weight: bold;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.updated-preview {
-  color: $text-secondary;
-  font-size: 20px;
-  font-weight: normal;
-}
 
 //
 // Estilos de Main Post
 //
-.post-body {
-  max-width: 800px;
-  background: #E8E7E6;
-  margin: 2.2% 0 10% 0;
-  padding: 5% 3%;
-}
-
-.post-body img{
-  max-width: 100%;
-  margin: 10% auto;
-  display: block;
-}
-
-.post-body .updated-preview{
-  margin: 2% 0;
-}
-
-
-.article-name {
-  font-size: 60px;
-}
-
-.author-email {
-  font-size: 25px;
-}

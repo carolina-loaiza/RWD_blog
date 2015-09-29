@@ -2,35 +2,28 @@
 // Estilos del header
 //
 h1 {
-  margin: 100px 0;
+  margin: 12% 0 8% 0;
   text-align: center;
 }
 
 h1 a{
-  font-size: 100px;
   font-family: $text-serif;
   border-bottom: none;
-}
-
-.logo { 
- 	padding-right: 12px;
-  background-color: #fdc7ae;
+  font-size: 50px;
+  color: $text-title;
 }
 
 .main-nav {
-  background: $background-nav;
+	background: $background-nav;
 }
 
-
-.main-nav a{
-	font-family: "Oleo Script Swash Caps", serif;
-  color: #493831;
-  display: inline-block;
-  margin: 20px;
-  overflow: hidden;
+.main-nav a {
+	color: $text-title;
 }
 
-.main-nav ul {
-  overflow: hidden;
-  height: 91px;
+.main-nav li {
+	margin-bottom: 5%;
+	font-size: 25px;
+  text-align: center;
 }
+

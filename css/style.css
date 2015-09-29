@@ -1,29 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700,700italic,600,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700|Muli:400,400italic,300italic,300);
 body {
   box-sizing: inherit;
-  font-family: "Josefin Sans", sans-serif;
-  color: #535257; }
+  font-family: "Muli", sans-serif;
+  color: #493831;
+  font-weight: normal;
+  background-image: url("../img/food_pattern.png"); }
 
 h2 {
   margin: 0; }
 
 h3 {
-  font-size: 30px;
-  margin: 5% 0 0 0; }
+  font-size: 28px;
+  margin: 5% 0 0 0;
+  font-weight: normal; }
 
 h4 {
   margin: 0;
-  font-size: 25px; }
+  font-size: 25px;
+  font-weight: normal; }
 
 a {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #535257;
-  border-bottom: 2px solid #535257; }
+  color: #493831;
+  border-bottom: 2px solid #493831;
+  font-weight: normal; }
 
 p {
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: normal; }
+
+span {
+  font-weight: normal; }
 
 ul {
   margin: 0;
@@ -63,7 +72,7 @@ button {
   margin-top: 20px; }
 
 footer {
-  background: #E8E7E6;
+  background: #493831;
   padding: 4% 0; }
 
 footer p {
@@ -77,20 +86,32 @@ header, section, footer {
   margin: 0 auto;
   max-width: 1200px; }
 
-.logo a {
-  font-size: 50px; }
+h1 {
+  margin: 100px 0;
+  text-align: center; }
+
+h1 a {
+  font-size: 100px;
+  font-family: "Oleo Script Swash Caps", serif;
+  border-bottom: none; }
 
 .logo {
-  padding: 8% 3%; }
+  padding-right: 12px;
+  background-color: #fdc7ae; }
 
-.main-nav, .logo {
-  background: #E8E7E6; }
+.main-nav {
+  background: #EA8676; }
 
-.main-nav li {
-  padding: 2% 2%; }
+.main-nav a {
+  font-family: "Oleo Script Swash Caps", serif;
+  color: #493831;
+  display: inline-block;
+  margin: 20px;
+  overflow: hidden; }
 
 .main-nav ul {
-  padding: 0 3%; }
+  overflow: hidden;
+  height: 91px; }
 
 .post-main {
   max-width: 900px; }
@@ -101,7 +122,7 @@ header, section, footer {
 .post-preview {
   max-width: 26%;
   margin: 3% 2% 0 0;
-  padding: 2% 2.5%;
+  padding: 2% 2.4%;
   background: #E8E7E6; }
 
 .post-page {
@@ -110,8 +131,7 @@ header, section, footer {
 
 .post-page li {
   padding: 0 2%;
-  font-size: 30px;
-  font-weight: bold; }
+  font-size: 30px; }
 
 .read-more {
   background: #fff;
@@ -121,11 +141,13 @@ header, section, footer {
 
 .updated {
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 18px;
+  font-weight: normal; }
 
 .updated-preview {
   color: #A4A3A5;
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: normal; }
 
 .post-body {
   max-width: 800px;
@@ -155,7 +177,10 @@ header, section, footer {
   padding: 2% 2.5%; }
 
 .post-recent a {
-  font-size: 25px; }
+  font-size: 20px; }
+
+.post-recent h3 {
+  margin-bottom: 28px; }
 
 .updated-preview {
   display: block;

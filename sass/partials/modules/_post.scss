@@ -12,7 +12,7 @@
 .post-preview {
   max-width: 26%;
   margin: 3% 2% 0 0;
-  padding: 2% 2.5%;
+  padding: 2% 2.4%;
   background: #E8E7E6;
 }
 
@@ -24,7 +24,6 @@
 .post-page li{
   padding: 0 2%;
   font-size: 30px;
-  font-weight: bold;
 }
 
 .read-more {
@@ -36,12 +35,14 @@
 
 .updated {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .updated-preview {
   color: $text-secondary;
   font-size: 20px;
+  font-weight: normal;
 }
 
 //

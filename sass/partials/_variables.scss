@@ -3,15 +3,16 @@
 //
 
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,700,700italic,600,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700|Muli:400,400italic,300italic,300);
 
-// Font 
-$text-sans: 'Josefin Sans', sans-serif;
+// Font
+$text-sans: 'Muli', sans-serif;
+$text-serif: 'Oleo Script Swash Caps', serif;
 
 // Colors 
-$background-color: #E8E7E6; // gris
-$background-nav: #E8E7E6; // gris
+$background-color: #493831; // cafe
+$background-nav: #EA8676; // rosa
 $background-post-recent: #E8E7E6; // gris
 $background-main-post: #E8E7E6; // gris
-$text: #535257; // negro
+$text: #493831; // cafe
 $text-secondary: #A4A3A5; // gris claro

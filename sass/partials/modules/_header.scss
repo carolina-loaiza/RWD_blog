@@ -1,22 +1,36 @@
 //
 // Estilos del header
 //
-.logo a{
-  font-size: 50px;
+h1 {
+  margin: 100px 0;
+  text-align: center;
+}
+
+h1 a{
+  font-size: 100px;
+  font-family: $text-serif;
+  border-bottom: none;
 }
 
 .logo { 
-  padding: 8% 3%;
+ 	padding-right: 12px;
+  background-color: #fdc7ae;
 }
 
-.main-nav, .logo {
+.main-nav {
   background: $background-nav;
 }
 
-.main-nav li{
-  padding: 2% 2%;
+
+.main-nav a{
+	font-family: "Oleo Script Swash Caps", serif;
+  color: #493831;
+  display: inline-block;
+  margin: 20px;
+  overflow: hidden;
 }
 
 .main-nav ul {
-  padding: 0 3%;
+  overflow: hidden;
+  height: 91px;
 }

@@ -19,7 +19,8 @@ h4 {
 a {
   text-decoration: none;
   border-bottom: 2px solid #493831;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #000; }
 
 p {
   font-size: 20px;
@@ -42,11 +43,14 @@ button {
   border: none; }
 
 footer {
-  background: #493831;
+  background: #BE9583;
   overflow: hidden; }
 
 footer p {
   font-weight: bold; }
+
+section {
+  overflow: hidden; }
 
 h1 {
   margin: 12% 0 8% 0;
@@ -70,11 +74,8 @@ h1 a {
   text-align: center; }
 
 .post-preview {
-  background: #BE9583; }
-
-.post-preview {
-  width: 80%;
-  text-aling: center;
+  background: #BE9583;
+  width: 288px;
   padding: 2%;
   margin: 10% auto;
   color: #493831; }
@@ -85,5 +86,49 @@ h1 a {
 
 .post-preview img {
   width: 100%; }
+
+.post-page {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
+.next-page, .last-page {
+  float: right;
+  margin-top: 8%; }
+
+.post-body {
+  width: 90%;
+  margin: 0 auto; }
+
+.post-body h2 {
+  font-size: 38px; }
+
+.post-body img {
+  width: 95%;
+  margin: 0 auto;
+  display: block; }
+
+.post-body p {
+  margin: 8% 0; }
+
+.post-recent {
+  background: #EA8676;
+  padding: 5%;
+  margin: 2% auto;
+  overflow: hidden;
+  width: 288px; }
+
+.see-more {
+  float: right; }
+
+.post-recent li {
+  padding: 5% 0; }
+
+.post-recent a {
+  font-size: 18px; }
+
+.post-recent time {
+  display: block;
+  margin-top: 2%; }
 
 /*# sourceMappingURL=style.css.map */

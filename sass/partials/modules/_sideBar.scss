@@ -1,3 +1,29 @@
 //
 // Estilos de Recent Project
 //
+
+
+.post-recent {
+  background: $background-nav;
+  padding: 5%;
+  margin: 2% auto;
+  overflow: hidden;
+  width: 288px;
+}
+
+.see-more {
+	float: right;
+}
+
+.post-recent li{
+  padding: 5% 0;
+}
+
+.post-recent a{
+	font-size: 18px
+}
+
+.post-recent time{
+	display: block;
+	margin-top: 2%;
+}

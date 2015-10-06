@@ -3,11 +3,7 @@
 
 .post-preview {
 	background: $background-post;
-}
-
-.post-preview {
-	width: 80%;
-	text-aling: center;
+	width: 288px;
 	padding: 2%;
 	margin: 10% auto;
 	color: $text-title;
@@ -22,8 +18,36 @@
   width: 100%;
 }
 
+.post-page {
+	width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.next-page, .last-page {
+	float: right;
+	margin-top: 8%;
+}
 
 
 //
 // Estilos de Main Post
 //
+
+.post-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post-body h2{
+	font-size: 38px;
+}
+
+.post-body img{
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+
+.post-body p{
+	margin: 8% 0;
+}

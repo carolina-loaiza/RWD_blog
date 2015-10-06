@@ -27,6 +27,7 @@ a {
   text-decoration: none;
   border-bottom: 2px solid $text-title;
   font-weight: normal;
+  color: #000;
 }
 
 p {
@@ -55,10 +56,14 @@ button {
 }
 
 footer {
-  background: $background-color;
+  background: $background-post;
   overflow: hidden;
 }
 
 footer p {
   font-weight: bold;
+}
+
+section {
+  overflow: hidden;
 }

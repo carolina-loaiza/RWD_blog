@@ -1,5 +1,8 @@
 //
 // Estilos de Preview Post
+.post-preview {
+	max-width: 900px;
+}
 
 .post-preview {
 	background: $background-post;
@@ -7,11 +10,15 @@
 	padding: 2%;
 	margin: 10% auto;
 	color: $text-title;
+	@media (min-width: 640px){
+		display: inline-block;
+	}
 }
 
 .post-preview h3 {
 	font-weight: bold;
 	margin: 2% 0;
+	display: inline-block;
 }
 
 .post-preview img {

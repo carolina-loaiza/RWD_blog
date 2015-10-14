@@ -1,17 +1,28 @@
 //
 // Estilos de Preview Post
-.post-preview {
+
+
+.post-main {
 	max-width: 900px;
+  @media (min-width: 940px){
+    margin: 0 auto;
+  }
+  @media (min-width: 1240px){
+    margin: 0;
+  }
 }
 
 .post-preview {
 	background: $background-post;
-	width: 288px;
+	max-width: 288px;
 	padding: 2%;
 	margin: 10% auto;
 	color: $text-title;
 	@media (min-width: 640px){
 		display: inline-block;
+    max-width: 26%;
+    margin: 3% 2% 0 0;
+    padding: 2% 2.4%;
 	}
 }
 
@@ -29,12 +40,38 @@
 	width: 80%;
   margin: 0 auto;
   text-align: center;
-}
-.next-page, .last-page {
-	float: right;
-	margin-top: 8%;
+  color: $text-title;
+  @media (min-width: 640px){
+    margin: 5% 0;
+    padding-left: 18%;
+    li {
+      padding: 0 2%;
+      font-size: 30px;
+      display: inline-block;
+    }
+  }
+  @media (min-width: 1240px){
+    padding-left: 0;
+  }
 }
 
+.last-page {
+  float: right;
+  margin-top: 8%;
+  @media (min-width: 640px){
+    float: none;
+    margin: 0 3%;
+  }
+}
+
+.next-page {
+  float: left;
+  margin-top: 8%;
+  @media (min-width: 640px){
+    float: none;
+    margin: 0 3%;
+  }
+}
 
 //
 // Estilos de Main Post
@@ -43,18 +80,48 @@
 .post-body {
   width: 90%;
   margin: 0 auto;
+  background-color: #EFB298;
+  padding: 0 2%;
+  box-sizing: border-box;
+  @media (min-width: 940px){
+    width: 72%;
+    padding: 3%;
+    margin: 2% auto;
+  }
+  @media (min-width: 1240px){
+    margin: 2% 0;
+  }
 }
 
-.post-body h2{
-	font-size: 38px;
+.post-body h2 {
+  font-size: 32px;
+  color: #493831;
+  margin-top: 35px;
+  @media (min-width: 940px){
+    font-size: 38px;
+    margin-top: 0;
+  }
 }
 
 .post-body img{
   width: 95%;
   margin: 0 auto;
   display: block;
+  @media (min-width: 940px){
+    margin-bottom: 4%;
+  }
 }
 
 .post-body p{
-	margin: 8% 0;
+	margin-bottom: 20px;
+}
+
+.author-email {
+  margin: 0 0 2% 0;
+  border-bottom: 1px solid #493831;
+  display: inline-block;
+}
+
+.updated-preview {
+  margin-bottom: 35px;
 }

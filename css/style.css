@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   border-bottom: 2px solid #493831;
   font-weight: normal;
-  color: #000; }
+  color: #493831; }
 
 p {
   font-size: 20px;
@@ -44,13 +44,59 @@ button {
 
 footer {
   background: #BE9583;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 4% 0 2.5% 0; }
 
 footer p {
-  font-weight: bold; }
+  font-weight: bold;
+  font-weight: bold;
+  margin: 0 3%;
+  color: #493831;
+  font-size: 15px; }
 
 section {
   overflow: hidden; }
+
+.see-more::after, .next-page::after {
+  content: ">";
+  margin-left: 10px;
+  font-weight: lighter; }
+
+.last-page::after {
+  content: ">>";
+  margin-left: 10px;
+  font-weight: lighter; }
+
+.read-more {
+  border: 1.5px solid #493831;
+  padding: 2%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  display: inline-block; }
+
+.social {
+  display: none; }
+  @media (min-width: 940px) {
+    .social {
+      display: block; } }
+
+.social li {
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  color: transparent; }
+
+.facebook {
+  background-image: url(../img/facebook.png);
+  margin-right: 20px; }
+
+.twitter {
+  background-image: url(../img/twitter.png);
+  margin-right: 30px; }
+
+footer .social {
+  margin-top: -54px; }
 
 header, section, footer {
   margin: 0 auto;
@@ -64,19 +110,35 @@ header, section, footer {
 h1 {
   margin: 12% 0 8% 0;
   text-align: center; }
+  @media (min-width: 680px) {
+    h1 {
+      margin: 4% 0 8% 0; } }
 
 h1 a {
   font-family: "Oleo Script Swash Caps", serif;
   border-bottom: none;
   font-size: 50px;
   color: #493831; }
+  @media (min-width: 680px) {
+    h1 a {
+      font-size: 120px; } }
+
+time {
+  display: block; }
 
 .main-nav {
-  background: #EA8676; }
+  background: #EA8676;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .main-nav {
+      width: 96%; } }
+  @media (min-width: 1240px) {
+    .main-nav {
+      width: 100%; } }
 
 @media (min-width: 640px) {
   .logo {
-    padding-right: 12px;
+    padding: 0 12px;
     background-color: #fdc7ae; } }
 
 .main-nav ul {
@@ -89,30 +151,44 @@ h1 a {
   font-family: "Oleo Script Swash Caps", serif;
   color: #493831;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
   overflow: hidden;
   font-size: 30px; }
+  @media (min-width: 700px) {
+    .main-nav a {
+      font-size: 26px; } }
+  @media (min-width: 640px) {
+    .main-nav a {
+      margin: 20px; } }
 
 .main-nav li {
-  margin-bottom: 5%;
   font-size: 25px;
   text-align: center; }
   @media (min-width: 640px) {
     .main-nav li {
       display: inline-block; } }
 
-.post-preview {
+.post-main {
   max-width: 900px; }
+  @media (min-width: 940px) {
+    .post-main {
+      margin: 0 auto; } }
+  @media (min-width: 1240px) {
+    .post-main {
+      margin: 0; } }
 
 .post-preview {
   background: #BE9583;
-  width: 288px;
+  max-width: 288px;
   padding: 2%;
   margin: 10% auto;
   color: #493831; }
   @media (min-width: 640px) {
     .post-preview {
-      display: inline-block; } }
+      display: inline-block;
+      max-width: 26%;
+      margin: 3% 2% 0 0;
+      padding: 2% 2.4%; } }
 
 .post-preview h3 {
   font-weight: bold;
@@ -125,42 +201,123 @@ h1 a {
 .post-page {
   width: 80%;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  color: #493831; }
+  @media (min-width: 640px) {
+    .post-page {
+      margin: 5% 0;
+      padding-left: 18%; }
+      .post-page li {
+        padding: 0 2%;
+        font-size: 30px;
+        display: inline-block; } }
+  @media (min-width: 1240px) {
+    .post-page {
+      padding-left: 0; } }
 
-.next-page, .last-page {
+.last-page {
   float: right;
   margin-top: 8%; }
+  @media (min-width: 640px) {
+    .last-page {
+      float: none;
+      margin: 0 3%; } }
+
+.next-page {
+  float: left;
+  margin-top: 8%; }
+  @media (min-width: 640px) {
+    .next-page {
+      float: none;
+      margin: 0 3%; } }
 
 .post-body {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #EFB298;
+  padding: 0 2%;
+  box-sizing: border-box; }
+  @media (min-width: 940px) {
+    .post-body {
+      width: 72%;
+      padding: 3%;
+      margin: 2% auto; } }
+  @media (min-width: 1240px) {
+    .post-body {
+      margin: 2% 0; } }
 
 .post-body h2 {
-  font-size: 38px; }
+  font-size: 32px;
+  color: #493831;
+  margin-top: 35px; }
+  @media (min-width: 940px) {
+    .post-body h2 {
+      font-size: 38px;
+      margin-top: 0; } }
 
 .post-body img {
   width: 95%;
   margin: 0 auto;
   display: block; }
+  @media (min-width: 940px) {
+    .post-body img {
+      margin-bottom: 4%; } }
 
 .post-body p {
-  margin: 8% 0; }
+  margin-bottom: 20px; }
+
+.author-email {
+  margin: 0 0 2% 0;
+  border-bottom: 1px solid #493831;
+  display: inline-block; }
+
+.updated-preview {
+  margin-bottom: 35px; }
 
 .post-recent {
   background: #EA8676;
-  padding: 5%;
-  margin: 2% auto;
+  padding: 2% 4%;
+  margin: 6% auto;
   overflow: hidden;
-  width: 288px; }
+  width: 80%;
+  box-sizing: border-box; }
+  @media (min-width: 940px) {
+    .post-recent {
+      padding: 1% 2%;
+      width: 60%;
+      margin: 3% auto; } }
+  @media (min-width: 1240px) {
+    .post-recent {
+      width: 25%;
+      margin: 0;
+      max-width: 300px;
+      padding: 1%;
+      position: absolute;
+      top: 426px;
+      margin-left: 900px; } }
+
+.post-recent h3 {
+  text-align: center;
+  font-family: "Oleo Script Swash Caps", serif;
+  color: #493831; }
 
 .see-more {
   float: right; }
 
 .post-recent li {
   padding: 5% 0; }
+  @media (min-width: 640px) {
+    .post-recent li {
+      display: inline-block;
+      width: 48%; } }
+  @media (min-width: 1240px) {
+    .post-recent li {
+      display: inherit;
+      width: inherit; } }
 
 .post-recent a {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: bold; }
 
 .post-recent time {
   display: block;

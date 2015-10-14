@@ -5,10 +5,31 @@
 
 .post-recent {
   background: $background-nav;
-  padding: 5%;
-  margin: 2% auto;
+  padding: 2% 4%;
+  margin: 6% auto;
   overflow: hidden;
-  width: 288px;
+  width: 80%;
+  box-sizing: border-box;
+  @media (min-width: 940px){
+    padding: 1% 2%;
+    width: 60%;
+    margin: 3% auto;
+  }
+  @media (min-width: 1240px){
+    width: 25%;
+    margin: 0;
+    max-width: 300px;
+    padding: 1%;
+    position: absolute;
+    top: 426px;
+    margin-left: 900px;
+  } 
+}
+
+.post-recent h3{
+  text-align: center;
+  font-family: $text-serif;
+  color: $text-title;
 }
 
 .see-more {
@@ -17,10 +38,19 @@
 
 .post-recent li{
   padding: 5% 0;
+  @media (min-width: 640px){
+    display: inline-block;
+    width: 48%;
+  }
+  @media (min-width: 1240px){
+    display: inherit;
+    width: inherit;
+  }
 }
 
 .post-recent a{
-	font-size: 18px
+	font-size: 18px;
+  font-weight: bold;
 }
 
 .post-recent time{

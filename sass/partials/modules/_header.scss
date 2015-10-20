@@ -38,6 +38,7 @@ time {
   top: 0;
   @media (min-width: 700px){
     width: 96%;
+    position: initial;
   }
   @media (min-width: 1240px){
     width: 100%;
@@ -72,6 +73,9 @@ time {
   padding: 2% 2% 3% 3%;
   right: 0;
   z-index: 2;
+  @media (min-width: 700px){
+    display: none;
+  }
 }
 
 .main-nav a {

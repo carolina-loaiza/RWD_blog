@@ -128,7 +128,10 @@ time {
 
 .main-nav {
   background: #EA8676;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  top: 0; }
   @media (min-width: 700px) {
     .main-nav {
       width: 96%; } }
@@ -136,16 +139,31 @@ time {
     .main-nav {
       width: 100%; } }
 
-@media (min-width: 640px) {
-  .logo {
-    padding: 0 12px;
-    background-color: #fdc7ae; } }
-
-.main-nav ul {
-  overflow: hidden; }
+.logo {
+  display: none; }
   @media (min-width: 640px) {
-    .main-nav ul {
+    .logo {
+      padding: 0 12px;
+      background-color: #fdc7ae; } }
+
+.main-sub-nav {
+  overflow: hidden;
+  height: 0;
+  transition: 0.8s; }
+  @media (min-width: 640px) {
+    .main-sub-nav {
       height: 91px; } }
+  .main-sub-nav.show {
+    height: 900px;
+    padding-top: 42px; }
+
+.logo-mobile {
+  position: absolute;
+  top: 0;
+  width: 25%;
+  padding: 2% 2% 3% 3%;
+  right: 0;
+  z-index: 2; }
 
 .main-nav a {
   font-family: "Oleo Script Swash Caps", serif;
